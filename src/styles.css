@@ -1,0 +1,228 @@
+body {
+    margin: 0;
+}
+
+section {
+    background-color: white;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 80px;
+}
+
+h1 {
+    font-size: 90px;
+    margin: 0;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+p {
+    margin: 0;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.subtext {
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.hero-area {
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1c1d25;
+    height: 100vh;
+    color: white;
+    font-size: 40px;
+}
+
+.hero-text {
+    margin-left: 80px;
+    margin-bottom: 200px;
+}
+
+.button {
+    width: 200px;
+    height: 55px;
+    border-radius: 30px;
+    background-color: coral;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 300;
+    padding-top: 5px;
+    margin-top: 20px;
+}
+
+.button:hover {
+    background-color: #ef744b;
+}
+
+.button:active {
+    background-color: #A9A9A9;
+    color: #808080;
+}
+
+.socials {
+    padding-bottom: 200px;
+}
+
+.logo {
+    height: 80px;
+    margin: 30px;
+}
+
+.social {
+    margin: 20px;
+}
+
+.sub-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 80px;
+}
+
+.sub-section-alternative {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 80px;
+}
+
+.photo-container {
+    display: flex;
+    align-items: center;
+    width: 300px;
+    border-radius: 150px;
+    margin-left: 80px;
+}
+
+.project-card {
+    width: 300px;
+    height: 500px;
+    box-shadow: 5px 5px 20px rgb(197, 195, 195);
+    margin: 10px;
+}
+
+.project-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+@media only screen and (max-width: 1000px) {
+    .project-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+.project-image {
+    margin-top: 25px;
+    width: 250px;
+    border-radius: 125px;
+}
+
+hr {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.project-link {
+    text-decoration: none;
+    color: #ef744b;
+}
+
+
+/* Style the navigation menu */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2b2c38;
+    color: white;
+    padding: 20px 40px;
+    /* Add padding for better spacing */
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    font-size: 24px;
+}
+
+li {
+    margin-right: 20px;
+    /* Add space between menu items */
+}
+
+li:last-child {
+    margin-right: 0;
+    /* Remove margin from the last item */
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease;
+    /* Add a smooth color transition on hover */
+}
+
+a:hover {
+    color: coral;
+    /* Change color on hover */
+}
+
+.hamburger-menu {
+    display: none;
+    border: 0;
+    background-color: transparent;
+    color: white;
+    font-size: 30px;
+    margin-right: 20px;
+    /* Add some right margin for better spacing */
+    cursor: pointer;
+    /* Change cursor to indicate interactivity */
+}
+
+/* Style the mobile menu */
+@media only screen and (max-width: 1000px) {
+    .hamburger-menu {
+        display: block;
+    }
+
+    ul {
+        display: none;
+        background-color: #2b2c38;
+        position: absolute;
+        top: 70px;
+        /* Adjust the distance from the top */
+        right: 20px;
+        /* Adjust the distance from the right */
+        flex-direction: column;
+        text-align: center;
+        z-index: 1;
+        /* Ensure the menu appears above other content */
+    }
+
+    ul.show {
+        display: flex;
+    }
+
+    li {
+        margin: 15px 0;
+        /* Add spacing between menu items */
+    }
+
+    .logo {
+        display: none;
+    }
+}
