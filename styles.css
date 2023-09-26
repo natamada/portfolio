@@ -1,45 +1,38 @@
+/* Import fonts */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
 
+/* Reset default margin and padding */
 * {
     margin: 0;
     padding: 0;
 }
 
+/* Global styles */
 body {
     font-family: "Poppins", sans-serif;
-}
-
-html {
     scroll-behavior: smooth;
-}
-
-p {
     color: rgb(85, 85, 85);
+    /* Default text color */
 }
 
-/* TRANSITION */
-
+/* Transition for links and buttons */
 a,
 .btn {
     transition: all 300ms ease;
 }
 
-/* DESKTOP NAV */
-
-nav,
-.nav-links {
-    display: flex;
-}
-
+/* Desktop navigation */
 nav {
+    display: flex;
     justify-content: space-around;
     align-items: center;
     height: 17vh;
 }
 
 .nav-links {
-    gap: 2rem;
     list-style: none;
+    display: flex;
+    gap: 2rem;
     font-size: 1.5rem;
 }
 
@@ -60,10 +53,7 @@ a:hover {
     font-size: 2rem;
 }
 
-.logo:hover {
-    cursor: default;
-}
-
+/* Hamburger menu */
 #hamburger {
     display: none;
 }
@@ -130,20 +120,12 @@ a:hover {
     transform: rotate(-45deg) translate(10px, -5px);
 }
 
-.hamburger-icon span:first-child {
+hamburger-icon span:first-child {
     transform: none;
-}
-
-.hamburger-icon span:first-child {
     opacity: 1;
 }
 
-.hamburger-icon span:first-child {
-    transform: none;
-}
-
-/* SECTIONS */
-
+/* Sections */
 section {
     padding-top: 4vh;
     height: 96vh;
@@ -154,10 +136,17 @@ section {
 
 .section-container {
     display: flex;
+    gap: 4rem;
+    height: 80%;
 }
 
-/* PROFILE SECTION */
+.section__pic-container {
+    height: 400px;
+    width: 400px;
+    margin: auto 0;
+}
 
+/* Profile section */
 #hero {
     display: flex;
     justify-content: center;
@@ -173,7 +162,6 @@ section {
     border-radius: 50%;
 }
 
-
 .section__text {
     align-self: center;
     text-align: center;
@@ -181,15 +169,6 @@ section {
 
 .section__text p {
     font-weight: 600;
-}
-
-.section__text__p1 {
-    text-align: center;
-}
-
-.section__text__p2 {
-    font-size: 1.75rem;
-    margin-bottom: 1rem;
 }
 
 .title {
@@ -209,6 +188,7 @@ section {
     height: 2rem;
 }
 
+/* Buttons */
 .btn-container {
     display: flex;
     justify-content: center;
@@ -217,12 +197,11 @@ section {
 
 .btn {
     font-weight: 600;
-    transition: all 300ms ease;
     padding: 1rem;
     width: 8rem;
     border-radius: 2rem;
     background: none;
-    /* Apply this to both btn-1 and btn-2 */
+    transition: all 300ms ease;
 }
 
 .btn-color-1,
@@ -241,58 +220,7 @@ section {
     border: rgb(255, 255, 255) 0.1rem solid;
 }
 
-#about {
-    position: relative;
-}
-
-.about-containers {
-    gap: 2rem;
-    margin-bottom: 2rem;
-    margin-top: 2rem;
-}
-
-.about-details-container {
-    justify-content: center;
-    flex-direction: column;
-}
-
-.about-containers,
-.about-details-container {
-    display: flex;
-}
-
-.about-pic {
-    border-radius: 2rem;
-}
-
-.arrow {
-    position: absolute;
-    right: -5rem;
-    bottom: 2.5rem;
-}
-
-.details-container {
-    padding: 1.5rem;
-    flex: 1;
-    background: white;
-    border-radius: 2rem;
-    border: rgb(53, 53, 53) 0.1rem solid;
-    border-color: rgb(163, 163, 163);
-    text-align: center;
-}
-
-.section-container {
-    gap: 4rem;
-    height: 80%;
-}
-
-.section__pic-container {
-    height: 400px;
-    width: 400px;
-    margin: auto 0;
-}
-
-
+/* Responsive media query */
 @media screen and (max-width: 700px) {
     #nav {
         display: none;
