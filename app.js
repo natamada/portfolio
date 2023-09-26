@@ -1,6 +1,8 @@
-function toggleMenu () {
-    const menu = document.querySelector('.menu-links')
-    const icon = document.querySelector('.hamburger-icon')
-    menu.classList.toggle('open')
-    icon.classList.toggle('open')
-}
+// Function for responsive hanburger menu
+const toggleMenu = () => {
+    const { classList: menuClassList } = document.querySelector('.menu-links');
+    const { classList: iconClassList } = document.querySelector('.hamburger-icon');
+
+    menuClassList.toggle('open');
+    iconClassList.toggle('open');
+};
