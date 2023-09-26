@@ -140,7 +140,7 @@ section {
     height: 80%;
 }
 
-.section__pic-container {
+.hero-img-container {
     height: 400px;
     width: 400px;
     margin: auto 0;
@@ -154,7 +154,7 @@ section {
     height: 80vh;
 }
 
-.section__pic-container img {
+.hero-img-container img {
     display: flex;
     height: 400px;
     width: 400px;
@@ -162,16 +162,26 @@ section {
     border-radius: 50%;
 }
 
-.section__text {
+.intro-text {
     align-self: center;
     text-align: center;
 }
 
-.section__text p {
-    font-weight: 600;
+.intro-text p {
+    font-weight: 100;
 }
 
-.title {
+.intro-text-1 {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.intro-text-2 {
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+}
+
+.name {
     font-size: 3rem;
     text-align: center;
 }
