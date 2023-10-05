@@ -11,7 +11,8 @@
 body {
     font-family: "Poppins", sans-serif;
     scroll-behavior: smooth;
-    color: rgb(85, 85, 85);
+    color: #8E8D8A;
+    background-color: #EAE7DC;
     /* Default text color */
 }
 
@@ -135,12 +136,6 @@ section {
     height: 80%;
 }
 
-.hero-img-container {
-    height: 400px;
-    width: 400px;
-    margin: auto 0;
-}
-
 /* Profile section */
 #hero {
     display: flex;
@@ -179,6 +174,7 @@ section {
 .name {
     font-size: 3rem;
     text-align: center;
+    color: #E85A4F;
 }
 
 #socials-container {
