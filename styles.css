@@ -144,14 +144,6 @@ section {
     height: 80vh;
 }
 
-.hero-img-container img {
-    display: flex;
-    height: 400px;
-    width: 400px;
-    margin: auto 0;
-    border-radius: 50%;
-}
-
 .intro-text {
     align-self: center;
     text-align: center;
@@ -213,12 +205,9 @@ section {
 .btn-color-1:hover,
 .btn-color-2:hover {
     cursor: pointer;
-    background: rgb(0, 0, 0);
-    color: white;
-}
-
-.btn-color-2:hover {
-    border: rgb(255, 255, 255) 0.1rem solid;
+    background: #E85A4F;
+    color: #EAE7DC;
+    border: #EAE7DC 0.1rem solid;
 }
 
 /* Responsive media query */
