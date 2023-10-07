@@ -40,11 +40,11 @@ nav {
 a {
     color: black;
     text-decoration: none;
-    text-decoration-color: white;
+    text-decoration-color: #E85A4F;
 }
 
 a:hover {
-    color: grey;
+    color: #E85A4F;
     text-decoration: underline;
     text-underline-offset: 1rem;
     text-decoration-color: rgb(181, 181, 181);
