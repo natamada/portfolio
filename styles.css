@@ -261,13 +261,11 @@ section {
     text-align: center;
 }
 
-.section-container {
-    gap: 4rem;
-    height: 80%;
-}
+
 
 .experience-details-container {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    width: 100%;
 }
