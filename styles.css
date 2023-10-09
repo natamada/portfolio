@@ -269,3 +269,17 @@ section {
     flex-direction: column;
     width: 100%;
 }
+
+#exp .details-container ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+}
+
+#exp .details-container li {
+    flex-basis: calc(50% - 10px);
+    margin-bottom: 10px;
+}
