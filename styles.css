@@ -219,16 +219,7 @@ section {
     border: #EAE7DC 0.1rem solid;
 }
 
-/* Responsive media query */
-@media screen and (max-width: 700px) {
-    #nav {
-        display: none;
-    }
 
-    #hamburger {
-        display: flex;
-    }
-}
 
 #about,
 #experience {
@@ -261,8 +252,6 @@ section {
     text-align: center;
 }
 
-
-
 .experience-details-container {
     display: flex;
     justify-content: center;
@@ -282,4 +271,35 @@ section {
 #exp .details-container li {
     flex-basis: calc(50% - 10px);
     margin-bottom: 10px;
+}
+
+#projects {
+    position: relative;
+}
+
+.project-img {
+    border-radius: 2rem;
+    width: 90%;
+    height: 90%;
+}
+
+.project-title {
+    margin: 1rem;
+    color: black;
+}
+
+.project-btn {
+    color: black;
+    border-color: rgb(163, 163, 163);
+}
+
+/* Responsive media query */
+@media screen and (max-width: 700px) {
+    #nav {
+        display: none;
+    }
+
+    #hamburger {
+        display: flex;
+    }
 }
