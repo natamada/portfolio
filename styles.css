@@ -285,12 +285,6 @@ section {
 
 .project-title {
     margin: 1rem;
-    color: black;
-}
-
-.project-btn {
-    color: black;
-    border-color: rgb(163, 163, 163);
 }
 
 /* Responsive media query */
