@@ -280,7 +280,10 @@ section {
 .project-img {
     border-radius: 2rem;
     width: 90%;
-    height: 90%;
+    height: 200px;
+    /* Set a fixed height that you desire */
+    object-fit: cover;
+    /* This ensures the image covers the container */
 }
 
 .project-title {
