@@ -11,8 +11,8 @@
 body {
     font-family: "Poppins", sans-serif;
     scroll-behavior: smooth;
-    color: #8E8D8A;
-    background-color: #EAE7DC;
+    color: #7d3680;
+    background-color: #ffffff;
     /* Default text color */
 }
 
@@ -38,7 +38,7 @@ nav {
 }
 
 a {
-    color: black;
+    color: b#7d3680;
     text-decoration: none;
     text-decoration-color: #E85A4F;
 }
@@ -81,7 +81,7 @@ a:hover {
 .hamburger-icon span {
     width: 100%;
     height: 2px;
-    background-color: black;
+    background-color: #7d3680;
     transition: all 0.3 ease-in-out;
 }
 
