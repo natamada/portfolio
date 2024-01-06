@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Natalia's Portfolio</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="assets/geometric/styles.css">
 </head>
 
 <body>
@@ -59,6 +60,11 @@
                 <img src="./assets/github.png" alt="My Github profile" class="icon"
                     onclick="location.href='https://github.com/'">
             </div>
+        </div>
+        <div class="intro-text">
+            <div id="quilt-container"></div>
+            <canvas id="myCanvas"></canvas>
+            <p>click the image to generate a new one!</p>
         </div>
     </section>
 
@@ -188,10 +194,23 @@
         </div>
     </section>
 
-    <!-- TODO: Add a footer -->
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2023 Naty Doe. All Rights Reserved.</p>
+    </footer>
 
-    <!-- JavaScript file for interactivity -->
+    <!-- Scripts -->
     <script src="app.js"></script>
+    <script src="assets/geometric/script.js"></script> 
 </body>
 
 </html>
